@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Naveen Kumar Mohanasundaram — Full Stack Engineer · GenAI</title>
+  <meta name="description" content="Senior Full Stack Engineer specialised in Generative AI — building React, Node.js and Python products on AWS, with RAG, LangGraph and multi-agent workflows." />
+  <meta name="theme-color" content="#0a0812" />
+  <meta property="og:title" content="Naveen Kumar Mohanasundaram — Full Stack Engineer · GenAI" />
+  <meta property="og:description" content="Full stack engineer specialised in GenAI: web, mobile, APIs and cloud on AWS — plus RAG, agents and LLM workflows." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23a78bfa'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%230a0812'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='url(%23g)'%3ENM%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#top" class="logo" aria-label="Home">
+      <span class="logo-mark">NM</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="mailto:naveenmsj@gmail.com" class="btn btn-small btn-ghost">Say hello</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <canvas id="network" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="pulse"></span> Senior Full Stack Engineer @ Presidio · GenAI specialist</p>
+          <h1 class="reveal">
+            Hi, I'm <span class="grad">Naveen</span>.<br />
+            I build <span class="typed" id="typed">full-stack products.</span><span class="caret">|</span>
+          </h1>
+          <p class="lead reveal">
+            Full stack engineer with 5+ years shipping web, mobile and cloud products end to end —
+            React and Flutter on the front, Node.js and Python on the back, AWS underneath.
+            I specialise in Generative AI: RAG, LangGraph agents and LLM-powered features
+            built into real products.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#work" class="btn btn-primary">See my work <span class="arrow">→</span></a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+          <ul class="hero-social reveal">
+            <li><a href="https://www.linkedin.com/in/naveen-mohan" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+            <li><a href="mailto:naveenmsj@gmail.com">Email ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-card reveal" data-tilt>
+          <div class="term-head">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="term-title">about.ts</span>
+          </div>
+<pre class="term-body"><code><span class="k">const</span> <span class="t">naveen</span> = {
+  role:      <span class="s">"Full Stack Engineer"</span>,
+  frontend:  [<span class="s">"React"</span>, <span class="s">"React Native"</span>, <span class="s">"Angular"</span>, <span class="s">"Flutter"</span>],
+  backend:   [<span class="s">"Node.js"</span>, <span class="s">"FastAPI"</span>, <span class="s">"Python"</span>],
+  data:      [<span class="s">"PostgreSQL"</span>, <span class="s">"DynamoDB"</span>, <span class="s">"Pinecone"</span>],
+  cloud:     [<span class="s">"AWS"</span>, <span class="s">"CDK"</span>, <span class="s">"Docker"</span>, <span class="s">"CI/CD"</span>],
+  <span class="f">specialty</span>: [<span class="s">"GenAI"</span>, <span class="s">"RAG"</span>, <span class="s">"LangGraph"</span>, <span class="s">"Agents"</span>],
+};
+
+<span class="c">// → UI to infra to LLMs, shipped end to end</span></code></pre>
+          <div class="term-foot">
+            <span class="chip-mini">✓ Web · Mobile · API · Cloud</span>
+            <span class="chip-mini">✓ GenAI specialist</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>React</span><span>✦</span><span>Node.js</span><span>✦</span><span>TypeScript</span><span>✦</span>
+        <span>Python</span><span>✦</span><span>FastAPI</span><span>✦</span><span>Flutter</span><span>✦</span>
+        <span>AWS</span><span>✦</span><span>PostgreSQL</span><span>✦</span><span>LangGraph</span><span>✦</span>
+        <span>RAG</span><span>✦</span><span>Bedrock</span><span>✦</span><span>MCP</span><span>✦</span>
+        <span>React</span><span>✦</span><span>Node.js</span><span>✦</span><span>TypeScript</span><span>✦</span>
+        <span>Python</span><span>✦</span><span>FastAPI</span><span>✦</span><span>Flutter</span><span>✦</span>
+        <span>AWS</span><span>✦</span><span>PostgreSQL</span><span>✦</span><span>LangGraph</span><span>✦</span>
+        <span>RAG</span><span>✦</span><span>Bedrock</span><span>✦</span><span>MCP</span><span>✦</span>
+      </div>
+    </div>
+
+    <!-- ABOUT + STATS -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">01</span>
+          <h2>About</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="big">
+              A <em>full stack engineer</em> who owns products end to end — from the interface people
+              touch to the APIs, cloud infrastructure and AI behind it.
+            </p>
+            <p>
+              My foundation is full-stack: React, Angular and React Native frontends, production Flutter apps,
+              high-performance REST APIs in Node.js and FastAPI, and AWS infrastructure defined in CDK with
+              CI/CD from day one.
+            </p>
+            <p>
+              On top of that, I specialise in Generative AI — RAG pipelines, LangGraph multi-agent
+              workflows, LLM evaluation and GPU-backed model pipelines — and the product work to make
+              those features usable, reliable and fast.
+            </p>
+            <p>
+              I also lead and mentor a team of four engineers, run design reviews, and write about AI and
+              engineering on Medium.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stat reveal" data-tilt>
+              <div class="stat-num"><span data-count="5">0</span>+</div>
+              <div class="stat-label">Years building production systems</div>
+            </div>
+            <div class="stat reveal" data-tilt>
+              <div class="stat-num"><span data-count="60">0</span>%</div>
+              <div class="stat-label">Faster end-to-end video processing</div>
+            </div>
+            <div class="stat reveal" data-tilt>
+              <div class="stat-num"><span data-count="80">0</span>%</div>
+              <div class="stat-label">Less manual review via automated workflows</div>
+            </div>
+            <div class="stat reveal" data-tilt>
+              <div class="stat-num"><span data-count="10">0</span>+</div>
+              <div class="stat-label">Spot &amp; A&amp;B awards at Presidio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">02</span>
+          <h2>Selected work</h2>
+        </div>
+        <p class="section-sub reveal">Highlights from production systems I've designed and shipped — across frontend, backend, cloud and GenAI.</p>
+
+        <div class="bento">
+          <article class="card card-xl reveal" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon">▶</span>
+              <span class="card-tag">Generative AI · Platform</span>
+            </div>
+            <h3>AI-Powered Video Generation Platform</h3>
+            <p>
+              A scalable, event-driven microservice platform that chains multiple AI models into one
+              media pipeline — transcription, stem separation, image-to-video generation and upscaling —
+              cutting end-to-end processing time by <strong>60%</strong>.
+            </p>
+            <div class="pipeline" aria-hidden="true">
+              <span>Whisper</span><i></i><span>Demucs</span><i></i><span>Wan I2V</span><i></i><span>FlashVSR</span>
+            </div>
+            <ul class="tags">
+              <li>AWS Batch GPU</li><li>CUDA</li><li>Step Functions</li><li>SQS</li><li>Microservices</li>
+            </ul>
+          </article>
+
+          <article class="card card-tall reveal" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon">◈</span>
+              <span class="card-tag">Agents</span>
+            </div>
+            <h3>Multi-Agent Orchestration Framework</h3>
+            <p>
+              A configurable LangGraph framework for stateful agent workflows with shared persistent
+              memory and dynamic model selection — plus a unified chat UI that routes across reasoning
+              and foundation models.
+            </p>
+            <ul class="tags">
+              <li>LangGraph</li><li>LangChain</li><li>Bedrock</li><li>React</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon">⌕</span>
+              <span class="card-tag">Retrieval</span>
+            </div>
+            <h3>RAG Pipelines + LLM Evaluation</h3>
+            <p>
+              Multiple ingestion pipelines with advanced document processing and embedding strategies,
+              continuously scored with automated DeepEval suites.
+            </p>
+            <ul class="tags">
+              <li>Pinecone</li><li>OpenSearch</li><li>DeepEval</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon">◎</span>
+              <span class="card-tag">Voice · MCP</span>
+            </div>
+            <h3>Voice-Enabled Conversational AI</h3>
+            <p>
+              A React Native voice interface with AI capabilities exposed through MCP services, letting
+              users talk to LLMs and external tools seamlessly.
+            </p>
+            <ul class="tags">
+              <li>React Native</li><li>MCP</li><li>LLMs</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon">⧉</span>
+              <span class="card-tag">Workflow automation</span>
+            </div>
+            <h3>Multi-Stage Media Workflows</h3>
+            <p>
+              Automated review and processing stages orchestrated with AWS Step Functions — reducing
+              manual review effort by <strong>80%</strong>.
+            </p>
+            <ul class="tags">
+              <li>Step Functions</li><li>Lambda</li><li>S3</li>
+            </ul>
+          </article>
+
+          <article class="card card-wide reveal" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon">▣</span>
+              <span class="card-tag">Mobile · Open source</span>
+            </div>
+            <h3>Production Flutter App &amp; NPM Tooling</h3>
+            <p>
+              Owned a production Flutter app from architecture through CI/CD and app-store releases,
+              with an offline draft-storage mechanism for low-network users — and published an NPM
+              package that cut Flutter project setup time by ~<strong>30%</strong>.
+            </p>
+            <ul class="tags">
+              <li>Flutter</li><li>Dart</li><li>CI/CD</li><li>NPM</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">03</span>
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-meta">
+              <span class="tl-date">Mar 2024 — Present</span>
+              <span class="tl-company">Presidio</span>
+            </div>
+            <div class="tl-body">
+              <h3>Senior Engineer</h3>
+              <ul>
+                <li>Built a scalable AI video generation platform on event-driven microservices, integrating multiple AI models and reducing end-to-end processing time by 60%.</li>
+                <li>Designed multi-stage media workflows with AWS Step Functions, cutting manual review effort by 80%.</li>
+                <li>Optimized generative AI workloads on CUDA-enabled AWS Batch GPU instances; deployed Whisper, Demucs, Wan I2V, FlashVSR and more.</li>
+                <li>Designed a configurable LangGraph multi-agent framework with stateful workflows, shared persistent memory and dynamic model selection.</li>
+                <li>Built and optimized RAG ingestion pipelines and automated LLM evaluation with DeepEval for continuous quality monitoring.</li>
+                <li>Developed a voice-enabled conversational AI in React Native, exposing AI capabilities through MCP services.</li>
+                <li>Led and mentored a team of four engineers through design reviews and technical guidance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-meta">
+              <span class="tl-date">Mar 2021 — Dec 2022</span>
+              <span class="tl-company">Presidio</span>
+            </div>
+            <div class="tl-body">
+              <h3>Engineer · Associate Engineer</h3>
+              <ul>
+                <li>Designed high-performance RESTful APIs in Node.js, Python and FastAPI with async handling, validation and AWS / third-party integrations.</li>
+                <li>Set up CI/CD pipelines to automate builds and deployments for web and mobile apps.</li>
+                <li>Developed infrastructure stacks with AWS CDK for automated cloud provisioning.</li>
+                <li>Designed an offline draft-storage mechanism for reliable data handling in low-network environments.</li>
+                <li>Integrated an AI assistant with Slack to automate daily inquiries and streamline internal workflows.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-tight" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">04</span>
+          <h2>Education</h2>
+        </div>
+        <div class="edu-card reveal" data-tilt>
+          <div class="edu-icon" aria-hidden="true">🎓</div>
+          <div class="edu-main">
+            <h3>Bachelor of Technology in Information Technology</h3>
+            <p class="edu-school">Kongu Engineering College · Perundurai, Tamil Nadu</p>
+          </div>
+          <span class="edu-date">Sep 2017 — Aug 2021</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">05</span>
+          <h2>Toolkit</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group skill-feature reveal" data-tilt>
+            <h4><span class="sg-icon">✦</span> GenAI &amp; LLMs</h4>
+            <ul class="chips">
+              <li>LangGraph</li><li>LangChain</li><li>RAG</li><li>AI Agents</li><li>Multi-Agent Workflows</li>
+              <li>Prompt Engineering</li><li>DeepEval</li><li>MCP</li><li>Vector Embeddings</li>
+            </ul>
+          </div>
+          <div class="skill-group skill-feature reveal" data-tilt>
+            <h4><span class="sg-icon">☁</span> Cloud &amp; DevOps</h4>
+            <ul class="chips">
+              <li>EC2</li><li>Lambda</li><li>ECS</li><li>S3</li><li>RDS</li><li>Cognito</li><li>Bedrock</li>
+              <li>SQS</li><li>VPC</li><li>IAM</li><li>CloudFront</li><li>Step Functions</li><li>AWS Batch</li>
+              <li>CDK</li><li>Docker</li><li>CI/CD</li><li>Swagger</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal" data-tilt>
+            <h4><span class="sg-icon">{ }</span> Languages</h4>
+            <ul class="chips"><li>JavaScript</li><li>TypeScript</li><li>Python</li><li>Dart</li></ul>
+          </div>
+          <div class="skill-group reveal" data-tilt>
+            <h4><span class="sg-icon">◧</span> Frontend</h4>
+            <ul class="chips"><li>React.js</li><li>React Native</li><li>Angular</li><li>Flutter</li></ul>
+          </div>
+          <div class="skill-group reveal" data-tilt>
+            <h4><span class="sg-icon">⚙</span> Backend</h4>
+            <ul class="chips"><li>Node.js</li><li>FastAPI</li></ul>
+          </div>
+          <div class="skill-group reveal" data-tilt>
+            <h4><span class="sg-icon">◫</span> Databases</h4>
+            <ul class="chips"><li>PostgreSQL</li><li>DynamoDB</li><li>Pinecone</li><li>OpenSearch</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECOGNITION -->
+    <section class="section" id="recognition">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">06</span>
+          <h2>Recognition</h2>
+        </div>
+        <div class="awards">
+          <div class="award reveal" data-tilt>
+            <div class="award-big">8+ <small>&amp;</small> 2</div>
+            <h4>Spot Awards &amp; A&amp;B Awards</h4>
+            <p>Recognized at Presidio for high-impact contributions across AI and cloud projects.</p>
+          </div>
+          <div class="award reveal" data-tilt>
+            <div class="award-big">~30%</div>
+            <h4>Open-source NPM package</h4>
+            <p>Published a package that reduces Flutter project setup time by roughly 30%.</p>
+          </div>
+          <div class="award reveal" data-tilt>
+            <div class="award-big">✍</div>
+            <h4>Writing on Medium</h4>
+            <p>Authored multiple articles on AI and software engineering.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card has-portrait reveal">
+          <div class="contact-orb" aria-hidden="true"></div>
+          <figure class="portrait">
+            <span class="portrait-ring" aria-hidden="true"></span>
+            <img src="./assets/naveen-mohan.jpg" alt="Portrait of Naveen Kumar Mohanasundaram" width="675" height="900" loading="lazy" />
+            <figcaption class="portrait-badge"><span class="pulse"></span> Available for new challenges</figcaption>
+          </figure>
+          <div class="contact-content">
+          <span class="section-num">07 — Contact</span>
+          <h2 class="contact-title">Let's build something <span class="grad">intelligent</span>.</h2>
+          <p class="lead">
+            Whether it's an AI product, an agent workflow, or a cloud platform that needs to scale —
+            I'd love to hear about it.
+          </p>
+          <div class="contact-actions">
+            <button class="btn btn-primary btn-lg" id="copyEmail" data-email="naveenmsj@gmail.com">
+              <span class="copy-label">naveenmsj@gmail.com</span>
+              <span class="copy-hint">Click to copy</span>
+            </button>
+            <a href="https://www.linkedin.com/in/naveen-mohan" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">LinkedIn ↗</a>
+          </div>
+          <p class="contact-phone">or call <a href="tel:+919659278506">+91 96592 78506</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Naveen Kumar Mohanasundaram</span>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copied to clipboard ✓</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
